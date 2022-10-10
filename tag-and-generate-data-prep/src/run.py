@@ -21,7 +21,7 @@ import pandas as pd
 import subprocess
 import logging
 
-from src.style_tags import TFIDFStatsGenerator, RelativeTagsGenerator, TrainDataGen
+from style_tags import TFIDFStatsGenerator, RelativeTagsGenerator, TrainDataGen
 
 
 def tag_style_markers(data_pth: str, outpath: str, style_0_label: str, style_1_label: str, tgt_lang="tagged", thresh=0.90, ngram_range=(1, 2),
